@@ -31,3 +31,6 @@ Request:
     "email": "",
     "activationCode": ""
 }
+
+-------------------------------------------------------------------------
+Api gui code qua email (de reset password)
