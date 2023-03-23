@@ -1,0 +1,33 @@
+Api register (dang ky)
+
+POST: https://84dd-117-2-33-128.ap.ngrok.io/api/v1/auth/register
+
+Request:
+{
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "password": ""
+}
+
+-----------------------------------------------------------------------
+Api login (dang nhap)
+
+POST: https://84dd-117-2-33-128.ap.ngrok.io/api/v1/auth/login
+
+Requets:
+{
+    "email": "",
+    "password": ""
+}
+
+------------------------------------------------------------------------
+Api accuracy (xac thuc tai khoan)
+
+POST: https://84dd-117-2-33-128.ap.ngrok.io/api/v1/auth/accuracy
+
+Request:
+{
+    "email": "",
+    "activationCode": ""
+}
