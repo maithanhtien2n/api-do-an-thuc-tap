@@ -32,13 +32,33 @@ Request:
 }
 
 -------------------------------------------------------------------------
-Api gui code qua email (de reset password)
+Api quen mat khau gui code qua email (de reset password)
 
 POST: /api/v1/auth/forgot-password
 
 Request:
 {
-    "email": "maithanhtien2n@gmail.com"
+    "email": ""
 }
 
 --------------------------------------------------------------------------
+API xac thuc code (neu dung thi cho doi mat khau)
+
+POST: /api/v1/auth/accuracy-password
+
+Request:
+{
+    "email": "",
+    "activationCode": ""
+}
+
+---------------------------------------------------------------------------
+API doi mat khau (khi ma da xac thuc code oke)
+
+POST: /api/v1/auth/reset-password
+
+Request:
+{
+    "email": "",
+    "password": ""
+}
