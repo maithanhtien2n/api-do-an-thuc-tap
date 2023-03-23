@@ -32,9 +32,9 @@ Request:
 }
 
 -------------------------------------------------------------------------
-Api quen mat khau gui code qua email (de reset password)
+Api gui code qua mail de xac nhan (dung cho cac truong hop xac thuc)
 
-POST: /api/v1/auth/forgot-password
+POST: /api/v1/auth/send-code
 
 Request:
 {
