@@ -4,8 +4,7 @@ POST: /api/v1/auth/register
 
 Request:
 {
-    "firstName": "",
-    "lastName": "",
+    "fullName": "",
     "email": "",
     "password": ""
 }
@@ -41,3 +40,5 @@ Request:
 {
     "email": "maithanhtien2n@gmail.com"
 }
+
+--------------------------------------------------------------------------
