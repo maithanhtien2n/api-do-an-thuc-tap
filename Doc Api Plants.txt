@@ -12,3 +12,18 @@ GET: /api/v1/plant
 Request params: yeu cau id (vi du: /api/v1/plant/9)
 
 -------------------------------------------------------------------------
+Api them moi plant
+
+POST: /api/v1/plant
+
+Request body:
+{
+    "name": "",
+    "description": "",
+    "price": "",
+    "quantity": "",
+    "image": "",
+    "category": ""
+}
+
+-------------------------------------------------------------------------
