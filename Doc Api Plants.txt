@@ -1,0 +1,14 @@
+Api danh sach plant
+
+GET: /api/v1/plant
+
+Request: not request
+
+------------------------------------------------------------------------
+Api chi tiet plant
+
+GET: /api/v1/plant
+
+Request params: yeu cau id (vi du: /api/v1/plant/9)
+
+-------------------------------------------------------------------------
