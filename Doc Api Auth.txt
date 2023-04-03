@@ -62,3 +62,20 @@ Request:
     "email": "",
     "password": ""
 }
+
+----------------------------------------------------------------------------
+API cap nhat thong tin nguoi dung
+
+PUT: api/v1/user/1
+
+Request:
+{
+    "fullName": "",
+    "avatar": "",
+    "gender": "",
+    "dob": "",
+    "phone": "",
+    "address": "",
+    "description": "",
+    "social_links": ""
+}
